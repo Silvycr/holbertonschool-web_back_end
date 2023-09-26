@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
-"""
-    Script returns a list of tuples containing string text
-    and the number of characters
-"""
-from typing import Iterable, Sequence, List, Tuple
+""" Element Length """
+from typing import Sequence, Tuple, Iterable, List
 
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
-    """ function that returns a list of tuples """
+    """ Element Length """
     return [(i, len(i)) for i in lst]
