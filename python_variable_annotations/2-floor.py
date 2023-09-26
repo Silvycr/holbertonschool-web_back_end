@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-""" Script that return the number integer """
+""" Floor of Float """
+import math
 
 
 def floor(n: float) -> int:
-    """ function that return the number integer of the number float"""
-    return int(n)
+    """ Floor of Float """
+    return(math.floor(n))
