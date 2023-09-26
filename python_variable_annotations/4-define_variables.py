@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Script that defines variables with specific values """
+""" Defining Variables """
 
 
 a: int = 1
