@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-""" Script the return a tuple """
+""" Return Tuple """
 from typing import Tuple, Union
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
-    """ function that return a tuple with str, int or float values """
+    """ Return Tuple """
     lst = [k, pow(v, 2)]
     return tuple(lst)
