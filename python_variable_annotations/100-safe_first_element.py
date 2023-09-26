@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-""" Script that return first element of the list """
-from typing import Sequence, Any, Union
+""" Element Length """
+from typing import Sequence, Union, Any
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
-    """ fuction that return fisrt element or else None """
+    """ Element Length """
     if lst:
         return lst[0]
     else:
